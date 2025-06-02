@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão Matriz</title>
+    <script src="matriz.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+
+
+
+    <button onclick="mostrarTabela(matriz)">Exibir Matriz!</button>
+
+    <table id="mostrar" class="container"></table>
+
+<br>
+
+    <input type="text" id="ipt_linha" placeholder="LINHA">
+    <input type="text" id="ipt_coluna" placeholder="COLUNA">
+    <button onclick="consultarMatriz()">consultar</button>
+    <button onclick="SomarLinhas()">Somar Linhas</button>
+    <button onclick="SomarColunas()">Somar Colunas</button>
+
+    <div id="resposta"></div>
+    
+</body>
+</html>

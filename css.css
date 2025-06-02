@@ -1,0 +1,13 @@
+.container{
+    background-color: rgb(131, 203, 235);
+    text-align: center;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+
+.item{
+    width: 50px;
+    margin: 5px;
+}
